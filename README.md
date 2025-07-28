@@ -13,7 +13,8 @@ Features
 - Mixed cooperative + preemptive thread execution
 - Built-in thread timing and time slice management
 
-## 📁 Directory Structure
+📁 Directory Structure
+```
 Core/
 ├── Inc/
 │ ├── kernel.h # Kernel struct and function definitions
@@ -23,3 +24,4 @@ Core/
 │ ├── main.c # User threads and OS startup code
 │ ├── asmDump.s # Assembly for PendSV and runFirstThread
 │ ├── stm32f4xx_it.c # SysTick and interrupt handlers
+```
